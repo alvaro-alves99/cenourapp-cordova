@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#3d1a11;
+    font-family:sans-serif;
+    overflow-x:hidden;
+}
+
+.menu{
+    width:100%;
+}
+
+#opcao-bolo:checked ~ #menu-bebidas{
+    display:none;
+}
+
+#opcao-bebidas:checked ~ #menu-bolos{
+    display:none;
+}
+
+input[name=opcao]{
+    display:none;
+}
+
+.menu-container label{
+    color:white;
+    background-size:4em;
+    background-position:center top;
+    background-color:#563429;
+    display:inline-block;
+    font-size:75%;
+    width:50%;
+    box-sizing: border-box;
+    padding:4em 0 1em;
+    text-transform:uppercase;
+    text-align:center;
+    position: fixed;
+    bottom:0;
+}
+
+label[for=opcao-bolo]{
+    background-image:url(imagens/icone-bolos.svg);
+    background-repeat:no-repeat;
+    left:0;
+}
+
+label[for=opcao-bebidas]{
+    background-image:url(imagens/icone-bebidas.svg);
+    background-repeat:no-repeat;
+    right:0;
+}
+
+input[type=radio]:checked + label{
+    background-color:#e4876d;
+}

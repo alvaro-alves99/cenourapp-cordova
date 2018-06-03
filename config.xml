@@ -1,0 +1,16 @@
+<? xml version="1.0" encoding="UTF-8" ?>
+<widget xlmns="http://www.w3.org/ns/widgets" xmlns:gap="http://www.phonegap.com/ns/1.0" version="1.0" id="org.alvaroalves.cenourapp">
+    <name>Só de Cenoura</name>
+    <description>
+        Aplicativo para treinar PhoneGap
+    </description>
+
+    <author>Álvaro Alves</author>
+
+    <icon src="imagens/icon.png">
+    <gap:splash src="imagens/splash.png">
+
+    <preference name="orientation" value="portrait">
+
+    <gap:platform name="android">
+</widget>
